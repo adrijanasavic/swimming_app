@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Časovi plivanje</string>
+    <string name="splashtime_key">splashtime_setting</string>
+    <string name="splash_key">splash_settings</string>
+</resources>
