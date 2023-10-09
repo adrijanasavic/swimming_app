@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_blue">
+    <item
+        android:id="@+id/change_lang"
+        android:icon="@drawable/ic_language"
+        android:title="Change language"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="About app"
+        app:showAsAction="ifRoom" />
+
+</menu>

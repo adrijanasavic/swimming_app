@@ -1,15 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Časovi plivanje</string>
+    <string name="app_name">Swimming</string>
     <string name="splash_time_key">splashtime_setting</string>
     <string name="splash_key">splash_settings</string>
-    <string name="home">Početna</string>
-    <string name="menu">Ponuda</string>
-    <string name="kin">Kineziterapija</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="kin">Kinesitherapy</string>
     <string name="blog">Blog</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="contact_us">Kontaktirajte nas</string>
+    <string name="contact_us">Contact us</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">hhh</string>
-</resources>
+    <string name="hello_blank_fragment">eng</string></resources>

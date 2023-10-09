@@ -1,4 +1,4 @@
-package com.as.casovi_plivanja;
+package com.as.casovi_plivanja.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.as.casovi_plivanja.R;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -35,7 +37,7 @@ public class SplashScreen extends AppCompatActivity {
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 
-        String splashTime = prefs.getString(getString(R.string.splashtime_key), "3000");
+        String splashTime = prefs.getString(getString(R.string.splash_time_key), "3000");
 
         boolean splash = prefs.getBoolean(getString(R.string.splash_key), true);
 
