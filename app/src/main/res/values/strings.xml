@@ -55,4 +55,12 @@
     <string name="title">Naslov</string>
     <string name="message">Poruka</string>
     <string name="send">Pošaljite</string>
+
+    <string name="image_id">id</string>
+    <string name="name">name</string>
+    <string name="description">description</string>
+    <string name="phone">phone</string>
+    <string name="web">web</string>
+    <string name="detail">Details</string>
+
 </resources>
