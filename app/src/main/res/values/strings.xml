@@ -3,13 +3,53 @@
     <string name="splash_time_key">splashtime_setting</string>
     <string name="splash_key">splash_settings</string>
     <string name="home">Početna</string>
-    <string name="menu">Ponuda</string>
-    <string name="kin">Kineziterapija</string>
-    <string name="blog">Blog</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="contact_us">Kontaktirajte nas</string>
-
+    <string name="contact">Kontakt</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">hhh</string>
+    <string name="title_home">Oslobodite se straha</string>
+    <string name="des_home">Jedinstveni program obuke za apsolutne početnike i sve one koji žele da nauče pravilno izvođenje prsne, kraul, leđne i delfin tehnike bez obzira na uzrast korisnika.</string>
+    <string name="image_des">image</string>
+    <string name="bio">Biografija</string>
+    <string name="bio_des">Diplomirani Msc sporta i fizičkog vaspitanja sa više od 23 godine iskustva u radu sa neplivačima, licencirani učitelj plivanja sa preko 20 000 časova treninga, moja strast i cilj je da pomognem ljudima da savladaju svoj strah od vode i unaprede svoje veštine plivanja.</string>
+    <string name="personal_name">Msc Zoran Božović</string>
+    <string name="bio_des1">Kroz prilagođeni program obuke, radim sa uzrastom dece od 5 do 14 godina i odraslima koji su neplivači ili koji žele da unaprede svoje veštine. Moje iskustvo i pristup obuci su posebno prilagođeni svakom pojedincu, sa ciljem da se osnaži samopouzdanje i izgradi sigurnost u vodi.</string>
+    <string name="bio_des2">U okviru individualnog treninga u plivanju, klijenti dobijaju personalizovani pristup koji je usklađen sa njihovim posebnim izazovima, potrebama i ciljevima u plivanju. Ova personalizovana obuka sadrži detaljna uputstva za svaku vežbu koja klijentima omogućava da poboljšaju svoje veštine i povećaju samopouzdanje u vodi. Ova vrsta obuke omogućava plivačkom treneru da se fokusira na pojedinačne probleme i tehnike poput pravilne tehnike disanja, udaraca nogama, plutanja i drugih tehnika koje su specifične za plivanje u bazenu ili otvorenoj vodi.</string>
+    <string name="bio_des3">Individualni programi mogu uključivati i tehnike relaksacije i pripreme tela koje pomažu u povećanju mobilnosti i fleksibilnosti. Cilj je da klijenti rade na svojim veštinama u cilju unapređenja ličnog plivanja.</string>
+    <string name="menu">Ponuda</string>
+    <string name="menu1">1. Obuka neplivača - bazično plivanje</string>
+    <string name="menu1_des">U ovom programu, neplivači će naučiti kako se pravilno održavati  na vodi ,  pokrete koji omogućavaju osnovno  kretanje kroz vodu , uključujući disanje, pravilnu tehniku rada  ruku i nogu.</string>
+    <string name="menu2">2.Obuka tehnika plivanja</string>
+    <string name="menu2_des">Ovaj program je namenjen ljudima koji već imaju osnovno znanje o plivanju, ali žele da nauče ili  usavrše svoju tehniku plivanja. U ovom programu, trener će raditi sa klijentima na savladavanju pravilne tehnike disanja,održavanju pravilnog položaja i  rotacije tela u vodi , koordinaciju pokreta ruku i nogu , povećavanju brzine plivanja, kao i na poboljšavanju opšte izdržljivosti.</string>
+    <string name="price">Cena časa :1200 din \nTrajanje časa:30 min</string>
+    <string name="duration">Časovi se održavaju na bazenu Slana Bara na Klisi u Novom Sadu</string>
+    <string name="kin">Kineziterapija</string>
+    <string name="kin_des1">Kao diplomirani kineziterapeut sa  iskustvom, pružam individualne  terapije za sve uzraste koji imaju probleme sa posturalnim deformitetima i sličnim problemima sa mišićno-koštanim sistemom. Radim sa decom i odraslima i pristupam svakom pojedincu sa pažnjom i stručnošću.</string>
+    <string name="kin_des2">Moje terapije uključuju klasične, bazične vežbe koje jačaju mišiće leđa, vrata, ruku i nogu, pomažući u ispravljanju posturalnih deformiteta i drugih problema. Uz to, uključujem i vežbe istezanja za povećanje fleksibilnosti i mobilnosti tela.</string>
+    <string name="kin_des3">Moj pristup terapiji fokusira se na individualne potrebe svakog pacijenta. Na osnovu procene njihovog trenutnog stanja, prilagođavam program terapije njihovim specifičnim potrebama, sa ciljem da se poboljša postura, smanji bol i poboljša opšte stanje i kvalitet života.</string>
+    <string name="kin_des4">Ako imate problema sa posturalnim deformitetima, bolovima u mišićima ili drugim sličnim problemima, kontaktirajte me i saznajte kako vam mogu pomoći da se osećate bolje i živite sa manje bola i nelagodnosti.</string>
+    <string name="kin_place">Mesto održavanja časova kineziterapije</string>
+
+    <string name="gallery">Naša Galerija</string>
+    <string name="gallery_des">U okviru individualnog treninga u plivanju, klijenti dobijaju personalizovani pristup koji je usklađen sa njihovim posebnim izazovima, potrebama i ciljevima u plivanju. Ova personalizovana obuka sadrži detaljna uputstva za svaku vežbu koja klijentima omogućava da poboljšaju svoje veštine i povećaju samopouzdanje u vodi. Ova vrsta obuke omogućava plivačkom treneru da se fokusira na pojedinačne probleme i tehnike poput pravilne tehnike disanja, udaraca nogama, plutanja i drugih tehnika koje su specifične za plivanje u bazenu ili otvorenoj vodi.</string>
+    <string name="experiences1">Nekada su bili apsolutni neplivači, bojeći se da uđu u bazen.  Zahvaljujući tome što su odlučili da pohađaju časove plivanja, moji bivši polaznici su postigli nešto što su smatrali nezamislivim - sada samostalno plivaju u dubokoj vodi!</string>
+    <string name="experiences2">Sa svakim časom su napredovali i strah od vode polako je nestajao. Krajnji rezultat je bio sjajan - ne samo da su naučili da plivaju, već su razvili  samopouzdanje, samouverenost  i sigurnost u vodi.</string>
+    <string name="experiences3">Ponosan sam na sve svoje bivše polaznike, koji su ostvarili ovaj veliki uspeh!</string>
+    <string name="post1">Koliko često i dugo plivati?  Koji stil plivanja izabrati?</string>
+    <string name="post1_des">Preporuka je da se plivanje upražnjava svakodnevno u trajanju 30-ak minuta. Ako to nije moguće, pozitivan efekat ima i plivanje tri puta nedeljno po tridesetak minuta. Svaka fizička aktivnost, pa i plivanje treba da  nam predstavlja prijatan osjećaj pa ga treba prilagoditi svom zdravstvenom stanju. Treba izabrati stil plivanja kojim želimo postići: relaksaciju, jačanje svih  mišića, kondiciju i pokretljivosti.  Ukoliko ne postoji zdravstvena prepreka (kontraindikacija), najbolje je kombinovati  sve stilove plivanja, jer se na taj način postiže najbolji efekat  i ravnomjerno se razvijaju svi mišići tijela. Preporučuje se leptir stil plivanja , ako želimo razviti veliku snagu ramena. Kraul je jedan od najčešćih stilova plivanja. Ako plivamo bržim tempom ovo je stil koji se preporučuje kada želimo aerobne učinke. Prsni stil je sporija tehnika plivanja koja zahtjeva veću snagu ramena i nogu. Leđni stil preporučuje se onima koji imaju problema s kičmenim stubom, posebno vratnim dijelom kičme, bolove, loše držanje, deformitete.</string>
+    <string name="post2">Plivanje i uticaj na zdravlje</string>
+    <string name="post2_des">Plivanje je odlična fizička aktivnost, pogodna za sve, bez obzira na starost ili kondiciju. Evo kako plivanje utiče na naše tijelo. Plivanje jača kardiovaskularni sistem, stabilizuje krvni pritisak, produbljuje disanje, povećava kapacitet pluća. Osim toga pozitivno djeluje na zglobove, povećava njihovu pokretljivost i elastičnost te pozitivno utiče i na koordinaciju pokreta. Plivanje se preporučuje kada se želimo opustiti, smanjiti anksioznost (tjeskobu) ili smanjiti nivo stresa, jer duboko disanje tokom plivanja, snižava nivo kortizola – „hormona stresa”,  koji je odgovoran za naše uznemireno stanje.  -Plivanjem se učvršćuje cjelokupna muskulatura tijela: ruke, ramena, leđa, grudni koš, noge, stiče se kondicija i izdržljivost. Plivanjem se troši i znatan broj kalorija i najbolji je vid fizičke aktivnosti u borbi protiv gojaznosti. Tokom 60 minuta plivanja slobodnim stilom sagorijeva se 500 do 700 kalorija. 750 kalorija naše tijelo sagorijeva kada plivamo prsnim stilom 60 minuta. 800 kalorija troši se tokom 60 minuta plivanja leptir stilom. 500 kalorija se izgubi tokom 60 minuta plivanja leđnim stilom. Koliko često i dugo plivati? Preporuka je da se plivanje upražnjava svakodnevno u trajanju 30-ak minuta. Ako to nije moguće, pozitivan efekat ima i plivanje tri puta nedeljno po tridesetak minuta. Svaka fizička aktivnost, pa i plivanje treba da  nam predstavlja prijatan osjećaj pa ga treba prilagoditi svom zdravstvenom stanju. Treba izabrati stil plivanja kojim želimo postići: relaksaciju, jačanje svih  mišića, kondiciju i pokretljivosti. Koji stil plivanja izabrati? Ukoliko ne postoji zdravstvena prepreka (kontraindikacija), najbolje je kombinovati  sve stilove plivanja, jer se na taj način postiže najbolji efekat  i ravnomjerno se razvijaju svi mišići tijela. Preporučuje se leptir stil plivanja , ako želimo razviti veliku snagu ramena. Kraul je jedan od najčešćih stilova plivanja. Ako plivamo bržim tempom ovo je stil koji se preporučuje kada želimo aerobne učinke. Prsni stil je sporija tehnika plivanja koja zahtjeva veću snagu ramena i nogu. Leđni stil preporučuje se onima koji imaju problema s kičmenim stubom, posebno vratnim dijelom kičme, bolove, loše držanje, deformitete.</string>
+    <string name="blog">Blog</string>
+    <string name="phone_number">+381&#8211;64&#8211;1494&#8211;033</string>
+    <string name="site">www.casoviplivanjanovisad.com</string>
+    <string name="working_hours">Radno vreme</string>
+    <string name="days">Ponedeljak-Petak</string>
+    <string name="weekend">Subota</string>
+    <string name="name_gym">Teretana - No Limit Gym</string>
+    <string name="title_contact">Ako imate dodatnih pitanja pišite nam</string>
+    <string name="title">Naslov</string>
+    <string name="message">Poruka</string>
+    <string name="send">Pošaljite</string>
 </resources>

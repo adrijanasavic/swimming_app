@@ -8,10 +8,10 @@
         android:title="Change language"
         app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@+id/about"
-        android:icon="@drawable/about"
-        android:title="About app"
-        app:showAsAction="ifRoom" />
+<!--    <item-->
+<!--        android:id="@+id/about"-->
+<!--        android:icon="@drawable/about"-->
+<!--        android:title="About app"-->
+<!--        app:showAsAction="ifRoom" />-->
 
 </menu>

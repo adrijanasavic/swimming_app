@@ -86,11 +86,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(this, "Change language ", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.about:
-                Toast.makeText(this, R.string.app_name, Toast.LENGTH_SHORT).show();
-                AboutDialog dialog = new AboutDialog(MainActivity.this);
-                dialog.show();
-                break;
+//            case R.id.about:
+//                Toast.makeText(this, R.string.app_name, Toast.LENGTH_SHORT).show();
+//                AboutDialog dialog = new AboutDialog(MainActivity.this);
+//                dialog.show();
+//                break;
             default:
         }
         return super.onOptionsItemSelected(item);

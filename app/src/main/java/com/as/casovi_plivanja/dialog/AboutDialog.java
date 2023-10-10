@@ -8,7 +8,7 @@ public class AboutDialog extends AlertDialog.Builder {
     public AboutDialog(Context context) {
         super( context );
         setTitle( "About" );
-        setMessage( "App name: Novi Sad\nAuthor: Adrijana Savic\nadrijana.work@gmail.com" );
+        setMessage( "App name:\nAuthor: Adrijana Savic\nadrijana.work@gmail.com" );
         setPositiveButton( "OK", (dialog, which) -> dialog.dismiss());
     }
 }

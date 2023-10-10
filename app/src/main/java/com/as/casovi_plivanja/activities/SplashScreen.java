@@ -1,5 +1,6 @@
 package com.as.casovi_plivanja.activities;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
@@ -21,6 +22,7 @@ import java.io.InputStream;
 import java.util.Timer;
 import java.util.TimerTask;
 
+@SuppressLint("CustomSplashScreen")
 public class SplashScreen extends AppCompatActivity {
 
     Animation topAnim, bottomAnim;
@@ -31,8 +33,8 @@ public class SplashScreen extends AppCompatActivity {
 
         hideSystemUI();
 
-        topAnim = AnimationUtils.loadAnimation( this, R.anim.top_anim );
-        bottomAnim = AnimationUtils.loadAnimation( this, R.anim.bottom_anim );
+        topAnim = AnimationUtils.loadAnimation(this, R.anim.top_anim);
+        bottomAnim = AnimationUtils.loadAnimation(this, R.anim.bottom_anim);
 
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
@@ -42,20 +44,20 @@ public class SplashScreen extends AppCompatActivity {
         boolean splash = prefs.getBoolean(getString(R.string.splash_key), true);
 
         if (splash) {
-            setContentView( R.layout.splash_screen );
+            setContentView(R.layout.splash_screen);
 
-            ImageView imageView = findViewById( R.id.imageSplash );
-            TextView splash_txt = findViewById( R.id.textView );
+            ImageView imageView = findViewById(R.id.imageSplash);
+            TextView splash_txt = findViewById(R.id.textView);
 
             InputStream is;
 
             try {
-                is = getAssets().open( "logo.png" );
-                Drawable drawable = Drawable.createFromStream( is, null );
-                imageView.setImageDrawable( drawable );
+                is = getAssets().open("logo.png");
+                Drawable drawable = Drawable.createFromStream(is, null);
+                imageView.setImageDrawable(drawable);
 
-                imageView.setAnimation( topAnim );
-                splash_txt.setAnimation( bottomAnim );
+                imageView.setAnimation(topAnim);
+                splash_txt.setAnimation(bottomAnim);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -63,12 +65,12 @@ public class SplashScreen extends AppCompatActivity {
             new Timer().schedule(new TimerTask() {
                 @Override
                 public void run() {
-                    startActivity( new Intent( SplashScreen.this, MainActivity.class ) );
+                    startActivity(new Intent(SplashScreen.this, MainActivity.class));
                     finish();
                 }
-            }, Integer.parseInt(splashTime) );
+            }, Integer.parseInt(splashTime));
         } else {
-            startActivity( new Intent( SplashScreen.this, MainActivity.class ) );
+            startActivity(new Intent(SplashScreen.this, MainActivity.class));
             finish();
         }
     }
@@ -81,6 +83,6 @@ public class SplashScreen extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
                         | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                         | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                        | View.SYSTEM_UI_FLAG_FULLSCREEN );
+                        | View.SYSTEM_UI_FLAG_FULLSCREEN);
     }
 }

@@ -4,12 +4,56 @@
     <string name="splash_time_key">splashtime_setting</string>
     <string name="splash_key">splash_settings</string>
     <string name="home">Home</string>
-    <string name="menu">Menu</string>
-    <string name="kin">Kinesitherapy</string>
-    <string name="blog">Blog</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="contact_us">Contact us</string>
+    <string name="contact">Contact</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">eng</string></resources>
+    <string name="hello_blank_fragment">eng</string>
+
+    <string name="title_home">Free yourself from fear</string>
+    <string name="des_home">A unique training program for absolute beginners and all those who want to learn the correct execution of chest, krauf, backstroke and dolphin technique regardless of the age of the student.</string>
+    <string name="image_des">image</string>
+    <string name="bio">Biography</string>
+    <string name="bio_des">Graduated Msc of Sports and Physical Education with more than 23 years of experience working with non-swimmers, licensed swimming instructor with over 20,000 hours of training, my passion and goal is to help people overcome their fear of water and improve their swimming skills.</string>
+    <string name="personal_name">Msc Zoran Božović</string>
+    <string name="bio_des1">Through a customized training program, I work with children ages 5 to 14 and adults who are non-swimmers or who want to improve their skills. My experience and approach to training is tailored to each individual, with the goal of boosting self-confidence and building safety in the water.</string>
+    <string name="bio_des2">As part of individual swimming training, clients receive a personalized approach that is aligned with their particular swimming challenges, needs and goals. This personalized training includes step-by-step instructions for each exercise allowing clients to improve their skills and increase their confidence in the water. This type of training allows the swimming coach to focus on individual problems and techniques such as proper breathing technique, kicks, floating and other techniques specific to pool or open water swimming.</string>
+    <string name="bio_des3">Individual programs may also include relaxation and body conditioning techniques that help increase mobility and flexibility. The goal is for clients to work on their skills in order to improve their personal swimming.</string>
+    <string name="menu">Menu</string>
+    <string name="menu1">1. Training of non-swimmers - basic swimming</string>
+    <string name="menu1_des">n this program, non-swimmers will learn how to properly maintain themselves in the water, movements that allow basic movement through the water, including breathing, proper hand and footwork technique.</string>
+    <string name="menu2">2. Training in swimming techniques</string>
+    <string name="menu2_des">This program is intended for people who already have a basic knowledge of swimming, but want to learn or improve their swimming technique. In this program, the coach will work with clients on mastering the correct breathing technique, maintaining the correct position and rotation of the body in the water, coordination of arm and leg movements, increasing swimming speed, as well as improving general endurance.</string>
+    <string name="price">Price of the lesson: 1200 dinars \nLesson duration: 30 min</string>
+    <string name="duration">Classes are held at the Slana Bar swimming pool on Klisa in Novi Sad</string>
+    <string name="kin">Kinesitherapy</string>
+    <string name="kin_des1">As a qualified kinesitherapist with experience, I provide individual therapies for all ages who have problems with postural deformities and similar problems with the musculoskeletal system. I work with children and adults and approach each individual with care and expertise.</string>
+    <string name="kin_des2">My therapies include classic, basic exercises that strengthen the muscles of the back, neck, arms and legs, helping to correct postural deformities and other problems. In addition, I also include stretching exercises to increase flexibility and mobility of the body.</string>
+    <string name="kin_des3">My approach to therapy focuses on the individual needs of each patient. Based on the assessment of their current condition, I adapt the therapy program to their specific needs, with the aim of improving posture, reducing pain and improving the general condition and quality of life.</string>
+    <string name="kin_des4">If you have problems with postural deformities, muscle pain or other similar problems, contact me and find out how I can help you feel better and live with less pain and discomfort.</string>
+    <string name="kin_place">Venue of kinesitherapy classes</string>
+
+    <string name="gallery">Photo Gallery</string>
+    <string name="gallery_des">As part of individual swimming training, clients receive a personalized approach that is aligned with their particular swimming challenges, needs and goals. This personalized training includes step-by-step instructions for each exercise allowing clients to improve their skills and increase their confidence in the water. This type of training allows the swimming coach to focus on individual problems and techniques such as proper breathing technique, kicks, floating and other techniques specific to pool or open water swimming.</string>
+    <string name="experiences1">They used to be absolute non-swimmers, afraid to enter the pool. By choosing to take swimming lessons, my former students have achieved something they thought was unimaginable - they are now swimming independently in deep water!</string>
+    <string name="experiences2">With each lesson they progressed and the fear of water slowly disappeared. The end result was great - not only did they learn to swim, but they developed confidence, self-assurance and safety in the water.</string>
+    <string name="experiences3">I am proud of all my former students, who achieved this great success!</string>
+    <string name="post1">How often and how long to swim?  Which swimming style to choose?</string>
+    <string name="post1_des"> It is recommended to practice swimming every day for about 30 minutes. If this is not possible, swimming three times a week for thirty minutes has a positive effect. Every physical activity, including swimming, should present us with a pleasant feeling, so it should be adapted to our health condition. We should choose the style of swimming that we want to achieve: relaxation, strengthening of all muscles, fitness and mobility.  If there is no health obstacle (contraindication), it is best to combine all styles of swimming, because in this way the best effect is achieved and all the muscles of the body develop evenly.  Butterfly swimming style is recommended, if we want to develop great shoulder strength. Crawl is one of the most common swimming styles. If we swim at a faster pace, this is the style that is recommended when we want aerobic effects. Breaststroke is a slower swimming technique that requires greater shoulder and leg strength. The back style is recommended for those who have problems with the spinal column, especially the neck part of the spine, pain, bad posture, deformities.</string>
+    <string name="post2">Swimming and its impact on health</string>
+    <string name="post2_des">Swimming is an excellent physical activity, suitable for everyone, regardless of age or fitness. Here is how swimming affects our body. Swimming strengthens the cardiovascular system, stabilizes blood pressure, deepens breathing, increases lung capacity. In addition, it has a positive effect on the joints, increases their mobility and elasticity, and has a positive effect on the coordination of movements. Swimming is recommended when we want to relax, reduce anxiety or reduce stress levels, because deep breathing during swimming lowers the level of cortisol - the "stress hormone", which is responsible for our anxious state. Swimming strengthens the entire musculature of the body: arms, shoulders, back, chest, legs, improves fitness and endurance. Swimming burns a considerable number of calories and is the best form of physical activity in the fight against obesity. During 60 minutes of freestyle swimming, 500 to 700 calories are burned. 750 calories our body burns when we swim breaststroke for 60 minutes. 800 calories are burned during 60 minutes of butterfly swimming. 500 calories are lost during 60 minutes of backstroke swimming. How often and how long to swim? It is recommended to practice swimming every day for about 30 minutes. If this is not possible, swimming three times a week for thirty minutes has a positive effect. Every physical activity, including swimming, should present us with a pleasant feeling, so it should be adapted to our health condition. We should choose the style of swimming that we want to achieve: relaxation, strengthening of all muscles, fitness and mobility. Which swimming style to choose? If there is no health obstacle (contraindication), it is best to combine all styles of swimming, because in this way the best effect is achieved and all the muscles of the body develop evenly. - Butterfly swimming style is recommended, if we want to develop great shoulder strength - Crawl is one of the most common swimming styles. If we swim at a faster pace, this is the style that is recommended when we want aerobic effects. Breaststroke is a slower swimming technique that requires greater shoulder and leg strength. - The back style is recommended for those who have problems with the spinal column, especially the neck part of the spine, pain, bad posture, deformities.</string>
+    <string name="blog">Blog</string>
+    <string name="phone_number">+381&#8211;64&#8211;1494&#8211;033</string>
+    <string name="site">www.casoviplivanjanovisad.com</string>
+    <string name="working_hours">Working Hours</string>
+    <string name="days">Monday-Friday</string>
+    <string name="weekend">Saturday</string>
+    <string name="name_gym">Gym - No Limit Gym</string>
+    <string name="title_contact">If you have additional questions, write to us</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+</resources>
+

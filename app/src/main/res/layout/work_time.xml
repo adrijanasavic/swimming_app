@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:layout_marginLeft="10dp"
+            android:text="@string/working_hours"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="Ponedeljak-Sreda-Petak"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="13:00 - 16:30"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="Utorak-Četvrtak"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="13:00 - 17:15"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="Subota"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="08:45 - 10:00"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+</ScrollView>

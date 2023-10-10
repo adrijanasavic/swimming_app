@@ -1,14 +1,365 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.HomeFragment">
+    android:background="@drawable/bg">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/image_des"
+            android:src="@drawable/swimming" />
+
+        <TextView
+            android:id="@+id/ns_des"
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/title_home"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="28dp" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/des_home"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/contact"
+            style="@style/InfoTitleTextStyle"
+            android:layout_marginBottom="8dp"
+            android:text="@string/contact_us"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/image_des"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:src="@drawable/swimming" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/bio"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/bio_des"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/image_des"
+            android:scaleType="fitXY"
+            android:src="@drawable/person1" />
+
+        <TextView
+            android:id="@+id/person"
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/personal_name"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/des1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivMalaSlika1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:src="@drawable/quote" />
+
+            <TextView
+                android:id="@+id/tvIme1"
+                style="@style/InfoDescriptionTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@+id/ivMalaSlika1"
+                android:layout_toRightOf="@id/ivMalaSlika1"
+                android:fontFamily="@font/nunito_sans_italic"
+                android:text="@string/bio_des1"
+                android:textSize="22dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/bio_des2"
+            android:textSize="22dp" />
+
+        <RelativeLayout
+            android:id="@+id/des3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivMalaSlika3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:src="@drawable/quote" />
+
+            <TextView
+                android:id="@+id/tvIme3"
+                style="@style/InfoDescriptionTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@+id/ivMalaSlika3"
+                android:layout_toRightOf="@id/ivMalaSlika3"
+                android:fontFamily="@font/nunito_sans_italic"
+                android:text="@string/bio_des3"
+                android:textSize="22dp" />
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/fragment_kinesy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/swimming" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/gallery"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/gallery_des"
+            android:textSize="22dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:id="@+id/SliderDots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/experiences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivExperiences1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:src="@drawable/quote" />
+
+            <TextView
+                android:id="@+id/tvExperiences1"
+                style="@style/InfoDescriptionTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@+id/ivExperiences1"
+                android:layout_toRightOf="@id/ivExperiences1"
+                android:fontFamily="@font/nunito_sans_italic"
+                android:text="@string/experiences1"
+                android:textSize="22dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/experiences2"
+            android:textSize="22dp" />
+
+        <RelativeLayout
+            android:id="@+id/experiences2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivExperiences3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:src="@drawable/quote" />
+
+            <TextView
+                android:id="@+id/tvExperiences3"
+                style="@style/InfoDescriptionTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="-68dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="68dp"
+                android:layout_toEndOf="@+id/ivExperiences3"
+                android:layout_toRightOf="@id/ivExperiences3"
+                android:fontFamily="@font/nunito_sans_italic"
+                android:text="@string/experiences3"
+                android:textSize="22dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/InfoDescriptionTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/nunito_sans_italic"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="24dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="Blog"
+                    android:textColor="@color/primary_text_default_material_light"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/que_btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/gradient_blue"
+                    android:fontFamily="@font/nunito_sans_italic"
+                    android:text="@string/post1"
+                    android:textColor="@android:color/white"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/show_tv1"
+                    style="@style/InfoDescriptionTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_sans_italic"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/post1_des"
+                    android:textSize="22dp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/que_btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/gradient_blue"
+                    android:fontFamily="@font/nunito_sans_italic"
+                    android:text="@string/post2"
+                    android:textColor="@android:color/white"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/show_tv2"
+                    style="@style/InfoDescriptionTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_sans_italic"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="@string/post2_des"
+                    android:textSize="22dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/work_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            layout="@layout/contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            layout="@layout/send_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            layout="@layout/footer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</ScrollView>
