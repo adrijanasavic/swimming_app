@@ -1,14 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".fragments.MenuFragment">
+    android:layout_height="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:src="@drawable/swimming" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/menu"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/menu1"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="true"
+            android:textSize="28dp"/>
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/menu1_des"
+            android:textSize="22dp"/>
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/menu2"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="true"
+            android:textSize="28dp"/>
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/menu2_des"
+            android:textSize="22dp"/>
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:fontFamily="@font/nunito_sans_italic"
+            android:text="@string/price"
+            android:textSize="22dp"/>
+
+        <RelativeLayout
+            android:id="@+id/location_swimming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/location_img"
+                    android:layout_width="45dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    style="@style/InfoDescriptionTextStyle"
+                    android:fontFamily="@font/nunito_sans_italic"
+                    android:text="@string/duration"
+                    android:textSize="22dp" />
+            </LinearLayout>
+        </RelativeLayout>>
+
+
+    </LinearLayout>
+
+</ScrollView>

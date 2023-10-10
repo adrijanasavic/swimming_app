@@ -27,7 +27,7 @@
     <string name="menu2">2. Training in swimming techniques</string>
     <string name="menu2_des">This program is intended for people who already have a basic knowledge of swimming, but want to learn or improve their swimming technique. In this program, the coach will work with clients on mastering the correct breathing technique, maintaining the correct position and rotation of the body in the water, coordination of arm and leg movements, increasing swimming speed, as well as improving general endurance.</string>
     <string name="price">Price of the lesson: 1200 dinars \nLesson duration: 30 min</string>
-    <string name="duration">Classes are held at the Slana Bar swimming pool on Klisa in Novi Sad</string>
+    <string name="duration">Classes are held \nat the Slana Bar swimming pool on Klisa \nin Novi Sad</string>
     <string name="kin">Kinesitherapy</string>
     <string name="kin_des1">As a qualified kinesitherapist with experience, I provide individual therapies for all ages who have problems with postural deformities and similar problems with the musculoskeletal system. I work with children and adults and approach each individual with care and expertise.</string>
     <string name="kin_des2">My therapies include classic, basic exercises that strengthen the muscles of the back, neck, arms and legs, helping to correct postural deformities and other problems. In addition, I also include stretching exercises to increase flexibility and mobility of the body.</string>
@@ -50,7 +50,7 @@
     <string name="working_hours">Working Hours</string>
     <string name="days">Monday-Friday</string>
     <string name="weekend">Saturday</string>
-    <string name="name_gym">Gym - No Limit Gym</string>
+    <string name="name_gym">Gym - No Limit Gym \nBranka Bajića 11 - Novi Sad</string>
     <string name="title_contact">If you have additional questions, write to us</string>
     <string name="title">Title</string>
     <string name="message">Message</string>

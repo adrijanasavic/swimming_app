@@ -23,7 +23,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
 
 import com.as.casovi_plivanja.R;
-import com.as.casovi_plivanja.dialog.AboutDialog;
 import com.as.casovi_plivanja.fragments.BlogFragment;
 import com.as.casovi_plivanja.fragments.HomeFragment;
 import com.as.casovi_plivanja.fragments.KinesitherapyFragment;

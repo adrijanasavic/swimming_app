@@ -1,3 +1,4 @@
+
 <resources>
     <string name="app_name">Časovi plivanje</string>
     <string name="splash_time_key">splashtime_setting</string>
@@ -7,8 +8,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="contact_us">Kontaktirajte nas</string>
     <string name="contact">Kontakt</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">hhh</string>
+
     <string name="title_home">Oslobodite se straha</string>
     <string name="des_home">Jedinstveni program obuke za apsolutne početnike i sve one koji žele da nauče pravilno izvođenje prsne, kraul, leđne i delfin tehnike bez obzira na uzrast korisnika.</string>
     <string name="image_des">image</string>
@@ -23,8 +26,8 @@
     <string name="menu1_des">U ovom programu, neplivači će naučiti kako se pravilno održavati  na vodi ,  pokrete koji omogućavaju osnovno  kretanje kroz vodu , uključujući disanje, pravilnu tehniku rada  ruku i nogu.</string>
     <string name="menu2">2.Obuka tehnika plivanja</string>
     <string name="menu2_des">Ovaj program je namenjen ljudima koji već imaju osnovno znanje o plivanju, ali žele da nauče ili  usavrše svoju tehniku plivanja. U ovom programu, trener će raditi sa klijentima na savladavanju pravilne tehnike disanja,održavanju pravilnog položaja i  rotacije tela u vodi , koordinaciju pokreta ruku i nogu , povećavanju brzine plivanja, kao i na poboljšavanju opšte izdržljivosti.</string>
-    <string name="price">Cena časa :1200 din \nTrajanje časa:30 min</string>
-    <string name="duration">Časovi se održavaju na bazenu Slana Bara na Klisi u Novom Sadu</string>
+    <string name="price">Cena časa : 1200 din \nTrajanje časa: 30 min</string>
+    <string name="duration">Časovi se održavaju \nna bazenu Slana Bara na Klisi \nu Novom Sadu</string>
     <string name="kin">Kineziterapija</string>
     <string name="kin_des1">Kao diplomirani kineziterapeut sa  iskustvom, pružam individualne  terapije za sve uzraste koji imaju probleme sa posturalnim deformitetima i sličnim problemima sa mišićno-koštanim sistemom. Radim sa decom i odraslima i pristupam svakom pojedincu sa pažnjom i stručnošću.</string>
     <string name="kin_des2">Moje terapije uključuju klasične, bazične vežbe koje jačaju mišiće leđa, vrata, ruku i nogu, pomažući u ispravljanju posturalnih deformiteta i drugih problema. Uz to, uključujem i vežbe istezanja za povećanje fleksibilnosti i mobilnosti tela.</string>
@@ -47,7 +50,7 @@
     <string name="working_hours">Radno vreme</string>
     <string name="days">Ponedeljak-Petak</string>
     <string name="weekend">Subota</string>
-    <string name="name_gym">Teretana - No Limit Gym</string>
+    <string name="name_gym">Teretana - No Limit Gym \nBranka Bajića 11 - Novi Sad</string>
     <string name="title_contact">Ako imate dodatnih pitanja pišite nam</string>
     <string name="title">Naslov</string>
     <string name="message">Poruka</string>

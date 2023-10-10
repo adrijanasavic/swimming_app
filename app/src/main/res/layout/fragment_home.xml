@@ -148,10 +148,16 @@
         </RelativeLayout>
 
         <include
+            layout="@layout/fragment_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"/>
+
+        <include
             layout="@layout/fragment_kinesy"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="40dp" />
+            android:layout_marginTop="20dp" />
 
         <ImageView
             android:layout_width="60dp"

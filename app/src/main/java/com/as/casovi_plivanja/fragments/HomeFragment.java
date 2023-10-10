@@ -46,10 +46,10 @@ public class HomeFragment extends Fragment {
     private ImageView[] dots;
     private final Integer[] images = {R.drawable.bazen1, R.drawable.bazen2, R.drawable.bazen3, R.drawable.bazen4, R.drawable.bazen5, R.drawable.bazen6, R.drawable.bazen7, R.drawable.bazen8, R.drawable.bazen9, R.drawable.bazen10, R.drawable.bazen11, R.drawable.bazen12, R.drawable.bazen13, R.drawable.bazen14, R.drawable.bazen15, R.drawable.bazen16, R.drawable.bazen17, R.drawable.bazen18, R.drawable.bazen19, R.drawable.bazen20};
     Button que_btn1, que_btn2, sendMail;
-    TextView textContact, gym, address, my_contact, show_tv1, show_tv2, personName;
+    TextView textContact, address, my_contact, show_tv1, show_tv2, personName;
     EditText editTitle, editEmailBody;
-    RelativeLayout callPhone;
-
+    RelativeLayout callPhone, location_swimming;
+    LinearLayout gym;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
@@ -77,9 +77,16 @@ public class HomeFragment extends Fragment {
             startActivity(intent);
         });
 
-        address = rootView.findViewById(R.id.address);
-        address.setOnClickListener(v -> {
-            String url = "https://www.google.com/maps/place/No+Limit+Gym/@45.2412196,19.7566835,13z/data=!4m20!1m13!4m12!1m4!2m2!1d19.7812926!2d45.2299468!4e1!1m6!1m2!1s0x475b11644c526459:0x423907e63ffc1ef7!2sNo+Limit+Gym!2m2!1d19.8166904!2d45.25391!3m5!1s0x475b11644c526459:0x423907e63ffc1ef7!8m2!3d45.25391!4d19.8166904!16s%2Fg%2F11q3_594bc?entry=ttu";
+//        address = rootView.findViewById(R.id.address);
+//        address.setOnClickListener(v -> {
+//            String url = "https://www.google.com/maps/place/No+Limit+Gym/@45.2412196,19.7566835,13z/data=!4m20!1m13!4m12!1m4!2m2!1d19.7812926!2d45.2299468!4e1!1m6!1m2!1s0x475b11644c526459:0x423907e63ffc1ef7!2sNo+Limit+Gym!2m2!1d19.8166904!2d45.25391!3m5!1s0x475b11644c526459:0x423907e63ffc1ef7!8m2!3d45.25391!4d19.8166904!16s%2Fg%2F11q3_594bc?entry=ttu";
+//            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//            startActivity(intent);
+//        });
+
+        location_swimming = rootView.findViewById(R.id.location_swimming);
+        location_swimming.setOnClickListener(v -> {
+            String url = "https://www.google.com/maps/dir/45.2299468,19.7812926/bazen+klisa+mapa/@45.2595065,19.761083,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x475b113d4e6f6a4d:0xcc8f888f1cbcfe9f!2m2!1d19.825037!2d45.2908401?entry=ttu";
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(intent);
         });
